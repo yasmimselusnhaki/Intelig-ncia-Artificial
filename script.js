@@ -11,7 +11,7 @@ const perguntas = [
       {
         texto: "Usar a IA para analisar os exames e ajudar no diagnóstico, 
         afirmacao: "afirmacao"
-      }.
+      },
       {
         texto: "Confiar apenas em sua experiência e analisar os exames sozinha."
         afirmacao: "afirmacao"
@@ -29,7 +29,7 @@ const perguntas = [
         texto:"Aceitar o resultado da IA sem questioná-lo."
         afirmacao: "afirmacao"
       }
-    ],
+    ]
   },
   {
     enunciado: "Depois de analisar as informações, Helena chega a uma possível solução para o caso. Agora, ela precisa conversar com o paciente e explicar como chegou àquela decisão.Qual deve ser a atitude da médica?",
@@ -42,7 +42,7 @@ const perguntas = [
         texto: "Dizer apenas que o diagnóstico foi feito pela tecnologia.",
         afirmacao: "afirmacao"
       }
-    ],
+    ]
   },
   {
     enunciado: "Após o atendimento, Helena percebe que a inteligência artificial pode transformar a medicina. Porém, também entende que tecnologia e conhecimento humano precisam trabalhar juntos.Como Helena deve enxergar a IA na medicina?",
@@ -55,7 +55,7 @@ const perguntas = [
         texto: "Como uma tecnologia capaz de substituir completamente os médicos."
         afirmacao: "afirmacao"
       }
-    ],
+    ]
   },
 ];
 
