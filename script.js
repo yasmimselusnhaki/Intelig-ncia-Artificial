@@ -13,7 +13,7 @@ const perguntas = [
         afirmacao: "afirmacao"
       },
       {
-        texto: "Confiar apenas em sua experiência e analisar os exames sozinha."
+        texto: "Confiar apenas em sua experiência e analisar os exames sozinha.",
         afirmacao: "afirmacao"
       }
     ]
@@ -26,7 +26,7 @@ const perguntas = [
         afirmacao: "afirmacao"
       },
       {
-        texto:"Aceitar o resultado da IA sem questioná-lo."
+        texto:"Aceitar o resultado da IA sem questioná-lo.",
         afirmacao: "afirmacao"
       }
     ]
@@ -52,11 +52,11 @@ const perguntas = [
         afirmacao: "afirmacao"
       },
       {
-        texto: "Como uma tecnologia capaz de substituir completamente os médicos."
+        texto: "Como uma tecnologia capaz de substituir completamente os médicos.",
         afirmacao: "afirmacao"
       }
     ]
-  },
+  }
 ];
 
 let atual = 0;
