@@ -9,7 +9,7 @@ const perguntas = [
     enunciado: "Dra. Helena é uma jovem médica que trabalha no pronto-socorro. Em um plantão movimentado, chega um paciente com sintomas difíceis de identificar. O hospital possui uma nova IA capaz de analisar exames e indicar possíveis diagnósticos.Helena precisa decidir como agir.O que a médica deve fazer?",
     alternativas: [
       {
-        texto: "Usar a IA para analisar os exames e ajudar no diagnóstico, 
+        texto: "Usar a IA para analisar os exames e ajudar no diagnóstico", 
         afirmacao: "afirmacao"
       },
       {
@@ -74,11 +74,12 @@ function mostraAlternativas(){
    for(const alternativa of perguntaAtual.alternativas) {
       const botaoAlternativas = document.createElement("button");
       botaoAlternativas.textContent = alternativa.texto;
-      botaoAlternativas.addEventlistener("click", function() => respostaSelecionada(alternativa));
+      botaoAlternativas.addEventListener("click", function() => respostaSelecionada(alternativa));
       caixaAlternativas.appendChild(botaoAlternativas);
    }
-}function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacoes
+}
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = opcaoSelecionada.afirmacoes;
     historiaFinal = afirmacoes;
     atual++;
     mostraPergunta();
