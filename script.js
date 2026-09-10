@@ -10,11 +10,11 @@ const perguntas = [
     alternativas: [
       {
         texto: "Usar a IA para analisar os exames e ajudar no diagnóstico", 
-        afirmacao: "afirmacao"
+        afirmacao: "A tecnologia pode oferecer uma nova perspectiva para situações médicas complexas."
       },
       {
         texto: "Confiar apenas em sua experiência e analisar os exames sozinha.",
-        afirmacao: "afirmacao"
+        afirmacao: "A experiência profissional permite tomar decisões com base no conhecimento adquirido ao longo da carreira."
       }
     ]
   },
@@ -23,11 +23,11 @@ const perguntas = [
     alternativas: [
       {
         texto:"Comparar a sugestão da IA com sua própria avaliação antes de decidir.",
-        afirmacao: "afirmacao"
+        afirmacao: "Helena pode analisar a informação recebida antes de decidir como agir diante do caso."
       },
       {
         texto:"Aceitar o resultado da IA sem questioná-lo.",
-        afirmacao: "afirmacao"
+        afirmacao: "Helena pode considerar a sugestão apresentada pela tecnologia como parte de sua tomada de decisão."
       }
     ]
   },
@@ -36,11 +36,11 @@ const perguntas = [
     alternativas: [
       {
         texto:"Explicar o diagnóstico de forma clara e mostrar que a IA foi apenas uma ferramenta de apoio.",
-        afirmacao: "afirmacao"
+        afirmacao: "Helena pode apresentar ao paciente os motivos que levaram à sua decisão e explicar o papel da tecnologia nesse processo."
       },
       {
         texto: "Dizer apenas que o diagnóstico foi feito pela tecnologia.",
-        afirmacao: "afirmacao"
+        afirmacao: "Helena pode atribuir o resultado à análise realizada pela ferramenta, sem detalhar o processo de avaliação"
       }
     ]
   },
@@ -49,11 +49,11 @@ const perguntas = [
     alternativas: [
       {
         texto: "Como uma ferramenta que auxilia médicos, sem substituir o cuidado humano.",
-        afirmacao: "afirmacao"
+        afirmacao: "Helena percebe que a tecnologia pode contribuir para diferentes etapas do atendimento médico"
       },
       {
         texto: "Como uma tecnologia capaz de substituir completamente os médicos.",
-        afirmacao: "afirmacao"
+        afirmacao: "Helena considera a possibilidade de a tecnologia assumir um papel cada vez maior na área da saúde."
       }
     ]
   }
