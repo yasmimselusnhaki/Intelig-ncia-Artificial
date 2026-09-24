@@ -118,7 +118,7 @@ function respostaSelecionada(opcaoSelecionada){
 function mostraResultado(){
   caixaPerguntas.textContent = "futuramente...";
   textoResultado.textContent = historiaFinal;
-  caixaAlternativas.textContent = ""
+  caixaAlternativas.textContent = "";
 }
 
 function aleatorio (lista){
