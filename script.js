@@ -10,11 +10,17 @@ const perguntas = [
     alternativas: [
       {
         texto: "Usar a IA para analisar os exames e ajudar no diagnóstico", 
-        afirmacao: "A tecnologia pode oferecer uma nova perspectiva para situações médicas complexas."
+        afirmacao: [
+        "A tecnologia pode oferecer uma nova perspectiva para situações médicas complexas.",
+        ""
+      ]
       },
       {
         texto: "Confiar apenas em sua experiência e analisar os exames sozinha.",
-        afirmacao: "A experiência profissional permite tomar decisões com base no conhecimento adquirido ao longo da carreira."
+        afirmacao: [
+        "A experiência profissional permite tomar decisões com base no conhecimento adquirido ao longo da carreira.",
+        ""
+      ]
       }
     ]
   },
@@ -23,11 +29,17 @@ const perguntas = [
     alternativas: [
       {
         texto:"Comparar a sugestão da IA com sua própria avaliação antes de decidir.",
-        afirmacao: "Helena pode analisar a informação recebida antes de decidir como agir diante do caso."
+        afirmacao: [
+        "Helena pode analisar a informação recebida antes de decidir como agir diante do caso.",
+          ""
+      ]
       },
       {
         texto:"Aceitar o resultado da IA sem questioná-lo.",
-        afirmacao: "Helena pode considerar a sugestão apresentada pela tecnologia como parte de sua tomada de decisão."
+        afirmacao: [
+        "Helena pode considerar a sugestão apresentada pela tecnologia como parte de sua tomada de decisão.",
+        ""
+      ]
       }
     ]
   },
@@ -36,11 +48,17 @@ const perguntas = [
     alternativas: [
       {
         texto:"Explicar o diagnóstico de forma clara e mostrar que a IA foi apenas uma ferramenta de apoio.",
-        afirmacao: "Helena pode apresentar ao paciente os motivos que levaram à sua decisão e explicar o papel da tecnologia nesse processo."
+        afirmacao: [
+        "Helena pode apresentar ao paciente os motivos que levaram à sua decisão e explicar o papel da tecnologia nesse processo.",
+        ""
+      ]
       },
       {
         texto: "Dizer apenas que o diagnóstico foi feito pela tecnologia.",
-        afirmacao: "Helena pode atribuir o resultado à análise realizada pela ferramenta, sem detalhar o processo de avaliação"
+        afirmacao: [
+        "Helena pode atribuir o resultado à análise realizada pela ferramenta, sem detalhar o processo de avaliação",
+        ""
+      ]
       }
     ]
   },
@@ -49,11 +67,17 @@ const perguntas = [
     alternativas: [
       {
         texto: "Como uma ferramenta que auxilia médicos, sem substituir o cuidado humano.",
-        afirmacao: "Helena percebe que a tecnologia pode contribuir para diferentes etapas do atendimento médico"
+        afirmacao: [
+        "Helena percebe que a tecnologia pode contribuir para diferentes etapas do atendimento médico",
+        ""
+      ]
       },
       {
-        texto: "Como uma tecnologia capaz de substituir completamente os médicos.",
-        afirmacao: "Helena considera a possibilidade de a tecnologia assumir um papel cada vez maior na área da saúde."
+        texto: "Como u[ma tecnologia capaz de substituir completamente os médicos.",
+        afirmacao:[
+         "Helena considera a possibilidade de a tecnologia assumir um papel cada vez maior na área da saúde.",
+         ""
+        ]
       }
     ]
   }
