@@ -32,7 +32,7 @@ export const perguntas = [
         texto:"Aceitar o resultado da IA sem questioná-lo.",
         afirmacao: [
         "Helena pode considerar a sugestão apresentada pela tecnologia como parte de sua tomada de decisão.",
-        "Helena confia na precisão dos dados automatizados e segue imediatamente a conduta indicada pelo sistema para acelerar o tratamento."
+        "Confia na precisão dos dados automatizados e segue imediatamente a conduta indicada pelo sistema para acelerar o tratamento."
       ]
       }
     ]
@@ -50,8 +50,8 @@ export const perguntas = [
       {
         texto: "Dizer apenas que o diagnóstico foi feito pela tecnologia.",
         afirmacao: [
-        "Helena pode atribuir o resultado à análise realizada pela ferramenta, sem detalhar o processo de avaliação",
-        "Helena repassa a conclusão de forma direta e objetiva, atribuindo a precisão da análise à eficiência da inteligência artificial."
+        "Pode atribuir o resultado à análise realizada pela ferramenta, sem detalhar o processo de avaliação",
+        "Repassa a conclusão de forma direta e objetiva, atribuindo a precisão da análise à eficiência da inteligência artificial."
       ]
       }
     ]
@@ -62,15 +62,15 @@ export const perguntas = [
       {
         texto: "Como uma ferramenta que auxilia médicos, sem substituir o cuidado humano.",
         afirmacao: [
-        "Helena percebe que a tecnologia pode contribuir para diferentes etapas do atendimento médico",
-        "Helena passa a enxergar a IA como uma aliada estratégica, capaz de potencializar suas decisões clínicas sem jamais anular a empatia e o toque humano."
+        "Percebe que a tecnologia pode contribuir para diferentes etapas do atendimento médico",
+        "Passa a enxergar a IA como uma aliada estratégica, capaz de potencializar suas decisões clínicas sem jamais anular a empatia e o toque humano."
       ]
       },
       {
         texto: "Como uma tecnologia capaz de substituir completamente os médicos.",
         afirmacao:[
-         "Helena considera a possibilidade de a tecnologia assumir um papel cada vez maior na área da saúde.",
-         "Helena passa a ver a automação total como o caminho inevitável da saúde, acreditando que algoritmos avançados superarão qualquer limite da mente humana."
+         "Considera a possibilidade de a tecnologia assumir um papel cada vez maior na área da saúde.",
+         "Passa a ver a automação total como o caminho inevitável da saúde, acreditando que algoritmos avançados superarão qualquer limite da mente humana."
         ]
       }
     ]
