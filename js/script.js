@@ -43,16 +43,15 @@ function respostaSelecionada(opcaoSelecionada){
 function mostraResultado(){
   caixaPerguntas.textContent = "futuramente...";
   textoResultado.textContent = historiaFinal;
-  caixaAlternativas.textContent = "";
-  botaoJogarNovamente.addEventListener("click", jogaNovamente());
-  
+  caixaAlternativas.classList.add("mostrar");
+  botaoJogarNovamente.addEventListener("click", jogaNovamente);
+
 }
 
 function jogaNovamente(){
   atual = 0;
   historiaFinal = "";
+  caixaAlternativas.classList.remove("mostrar");
   mostraPergunta();
-
 }
-
 mostraPergunta();
