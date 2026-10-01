@@ -55,7 +55,6 @@ button:hover{
   display: flex;
   flex-direction: column;
   gap: 10px;
-  font-size: 1.5rem;
 }
 .caixa-resultado{
   display: none;
