@@ -43,7 +43,8 @@ function respostaSelecionada(opcaoSelecionada){
 function mostraResultado(){
   caixaPerguntas.textContent = "futuramente...";
   textoResultado.textContent = historiaFinal;
-  caixaAlternativas.classList.add("mostrar");
+  caixaAlternativas.textContent = "";
+  caixaResultado.classList.add("mostrar");
   botaoJogarNovamente.addEventListener("click", jogaNovamente);
 
 }
