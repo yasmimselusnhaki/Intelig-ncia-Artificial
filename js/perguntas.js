@@ -67,7 +67,7 @@ export const perguntas = [
       ]
       },
       {
-        texto: "Como u[ma tecnologia capaz de substituir completamente os médicos.",
+        texto: "Como uma tecnologia capaz de substituir completamente os médicos.",
         afirmacao:[
          "Helena considera a possibilidade de a tecnologia assumir um papel cada vez maior na área da saúde.",
          "Helena passa a ver a automação total como o caminho inevitável da saúde, acreditando que algoritmos avançados superarão qualquer limite da mente humana."
