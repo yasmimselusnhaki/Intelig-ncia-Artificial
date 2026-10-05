@@ -56,9 +56,9 @@ function jogaNovamente(){
   mostraPergunta();
 }
 function substituiNome(){
-  for(const pergunta of perguntas){
-    pergunta.enunciado = pergunta.enunciado.replace(/Você/g, nome);
-  }
+for(const pergunta of perguntas){
+pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+    }
 }
 substituiNome();
 mostraPergunta();
