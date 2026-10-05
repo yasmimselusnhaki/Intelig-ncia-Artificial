@@ -7,14 +7,16 @@ export const perguntas = [
         afirmacao: [
         "A tecnologia pode oferecer uma nova perspectiva para situações médicas complexas.",
         "Helena decide integrar a tecnologia ao seu fluxo de trabalho, usando os dados da IA como uma segunda opinião rápida para orientar seus próximos passo."
-      ]
+      ],
+      proxima: 1,
       },
       {
         texto: "Confiar apenas em sua experiência e analisar os exames sozinha.",
         afirmacao: [
         "A experiência profissional permite tomar decisões com base no conhecimento adquirido ao longo da carreira.",
         "Helena opta por confiar estritamente em seu conhecimento clínico, examinando minuciosamente cada detalhe do caso por conta própria."
-      ]
+      ],
+      ptoxim: 2,
       }
     ]
   },
@@ -26,14 +28,16 @@ export const perguntas = [
         afirmacao: [
         "Helena pode analisar a informação recebida antes de decidir como agir diante do caso.",
           "Helena cruza os dados do algoritmo com sua análise dos exames, usando a IA como um filtro complementar sem abrir mão do seu próprio raciocínio clínico."
-      ]
+      ],
+      proxima: 3,
       },
       {
         texto:"Aceitar o resultado da IA sem questioná-lo.",
         afirmacao: [
         "Helena pode considerar a sugestão apresentada pela tecnologia como parte de sua tomada de decisão.",
         "Confia na precisão dos dados automatizados e segue imediatamente a conduta indicada pelo sistema para acelerar o tratamento."
-      ]
+      ],
+      proxima: 4,
       }
     ]
   },
@@ -45,14 +49,16 @@ export const perguntas = [
         afirmacao: [
         "Helena pode apresentar ao paciente os motivos que levaram à sua decisão e explicar o papel da tecnologia nesse processo.",
         "Helena conversa humanamente com o paciente, esclarecendo cada detalhe do quadro e explicando que a tecnologia serviu apenas para complementar seu julgamento médico."
-      ]
+      ],
+      proxima: 5,
       },
       {
         texto: "Dizer apenas que o diagnóstico foi feito pela tecnologia.",
         afirmacao: [
         "Pode atribuir o resultado à análise realizada pela ferramenta, sem detalhar o processo de avaliação",
         "Repassa a conclusão de forma direta e objetiva, atribuindo a precisão da análise à eficiência da inteligência artificial."
-      ]
+      ],
+      proxima: 6,
       }
     ]
   },
@@ -64,14 +70,14 @@ export const perguntas = [
         afirmacao: [
         "Percebe que a tecnologia pode contribuir para diferentes etapas do atendimento médico",
         "Passa a enxergar a IA como uma aliada estratégica, capaz de potencializar suas decisões clínicas sem jamais anular a empatia e o toque humano."
-      ]
+      ],
       },
       {
         texto: "Como uma tecnologia capaz de substituir completamente os médicos.",
         afirmacao:[
          "Considera a possibilidade de a tecnologia assumir um papel cada vez maior na área da saúde.",
          "Passa a ver a automação total como o caminho inevitável da saúde, acreditando que algoritmos avançados superarão qualquer limite da mente humana."
-        ]
+        ],
       }
     ]
   },
