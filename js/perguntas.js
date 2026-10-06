@@ -16,7 +16,7 @@ export const perguntas = [
         "A experiência profissional permite tomar decisões com base no conhecimento adquirido ao longo da carreira.",
         "Helena opta por confiar estritamente em seu conhecimento clínico, examinando minuciosamente cada detalhe do caso por conta própria."
       ],
-      ptoxim: 2,
+      proxima: 2,
       }
     ]
   },
