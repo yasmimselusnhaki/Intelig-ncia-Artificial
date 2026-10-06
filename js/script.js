@@ -7,10 +7,23 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente-btn");
+const botaoiniciar =document.querySelector(".iniciar.btn");
+const telainicial = document.querySelector(".tela-inicial");
 
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
+
+botaoiniciar.addEventListener('click', iniciajogo);
+function iniciaJogo() {
+atual = 0;
+historiaFinal = "";
+telaInicial.style.display = 'none';
+caixaPerguntas.classList.remove("mostrar");
+caixaAlternativas.classList.remove("mostrar");
+caixaResultado.classList.remove("mostrar");
+mostraPergunta();
+}
 
 function mostraPergunta() {
   if(atual >= perguntas.length){
@@ -67,4 +80,3 @@ pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
     }
 }
 substituiNome();
-mostraPergunta();
