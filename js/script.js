@@ -52,6 +52,7 @@ function mostraAlternativas(){
    }
 }
 
+
 function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal += afirmacoes + " ";
@@ -62,13 +63,9 @@ function respostaSelecionada(opcaoSelecionada) {
         atual++;
     }
 
-    if (atual >= perguntas.length) {
-        mostraResultado();
-        return;
-    }
-
     mostraPergunta();
 }
+
 
 
 function mostraResultado() {
