@@ -60,24 +60,28 @@ function respostaSelecionada(opcaoSelecionada){
       
 }
 
-function mostraResultado(){
-  caixaPerguntas.textContent = `futuramente, ${nome}`;
+function mostraResultado() {
+  caixaPerguntas.classList.remove("mostrar");
+  caixaAlternativas.classList.remove("mostrar");
+
+  caixaPerguntas.textContent = `Futuramente, ${nome}`;
   textoResultado.textContent = historiaFinal;
   caixaAlternativas.textContent = "";
-  caixaResultado.classList.add("mostrar");
-  botaoJogarNovamente.addEventListener("click", jogaNovamente);
 
+  caixaResultado.classList.add("mostrar");
 }
 
 function jogaNovamente(){
   atual = 0;
   historiaFinal = "";
+  caixaResultado.classList.remove("mostrar");
+  caixaPerguntas.classList.remove("mostrar");
   caixaAlternativas.classList.remove("mostrar");
   mostraPergunta();
 }
 function substituiNome(){
 for(const pergunta of perguntas){
-pergunta.enunciado = pergunta.enunciado.replace(/você/g, nome);
+pergunta.enunciado = pergunta.enunciado.replace(/você/gi, nome);
     }
 }
 substituiNome();
