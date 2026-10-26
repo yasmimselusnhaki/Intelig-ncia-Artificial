@@ -53,16 +53,12 @@ function mostraAlternativas(){
 }
 
 
+
 function respostaSelecionada(opcaoSelecionada) {
     const afirmacoes = opcaoSelecionada.afirmacao;
     historiaFinal += afirmacoes + " ";
 
-    if (opcaoSelecionada.proxima !== undefined) {
-        atual = opcaoSelecionada.proxima;
-    } else {
-        atual++;
-    }
-
+    atual++;
     mostraPergunta();
 }
 
